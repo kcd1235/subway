@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+.menu .head
+{
+	width: 1170px;
+	margin: 0 auto;
+	padding-bottom: 33px;
+	position: relative;
+}
+.menu .head h2
+{
+	font-size: 40px;
+	font-weight: bold;
+	background: url(../img/bul_tit.png) no-repeat 0 12px;
+	min-height: 60px;
+    padding: 17px 0 0 25px;
+}
+.menu .head .tab
+{
+	position: absolute;
+	right: 0;
+	top:44px;
+}
+.menu .head .tab ul
+{
+	overflow: hidden;
+}
+.menu .head .tab ul li
+{
+	float: left;
+	margin-left: 23px;
+	padding-left: 23px;
+	position: relative;
+	font-size: 16px;
+}
+.menu .head .tab ul li::after
+{
+	content: '|';
+	color: gray;
+	position: absolute;
+	left: 0;
+}
+.menu .head .tab ul li.on a
+{
+	color: green;
+}
+.menu .head .tab ul li:first-child:after
+{
+	content: '';
+}
+.menu .head .tab ul li:first-child
+{
+	margin: 0;
+	padding: 0;
+}
+.menu .contents
+{
+	width: 1200px;
+	height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: none;
+}
+.menu .contents.on
+{
+	display: block;
+}
+.menu .contents ul li
+{
+	text-align: center;
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	width: 270px;
+}
+.menu .contents ul li a
+{
+	position: relative;
+	display: block;
+}
+.menu .contents ul li a:hover .contents ul li p
+{
+	display: none;
+}
+.li1:hover .li1 p
+{
+	display: none;
+}
+.menu .contents ul li p
+{
+	font-size: 12px;
+	color: gray;
+}
+.menu .contents img
+{
+	width: 250px;
+	height: 183px;
+	text-align: center;
+}
+.menu .contents strong
+{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.section_top,.section_bottom
+{
+	height: 300px;
+	overflow:hidden;
+}
+.section_top .utilization
+{
+	width: 400px;
+	height: 300px;
+	margin-left: 55px;
+	position: relative;
+	float: left;
+	background-image: url(../img/bg_utilization.png);
+}
+.utilization p
+{
+	color: white;
+	font-size: 28px;
+	position: absolute;
+	left: 40px;
+	top:38px;
+	font-weight: bold;
+}
+.utilization .btn
+{
+	display: block;
+	width: 96px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 36px;
+	color: white;
+	position: absolute;
+	left: 41px;
+	bottom: 40px;
+}
+.section_top .history
+{
+	width: 800px;
+	height: 300px;
+	position: relative;
+	float: left;
+	background-image: url(../img/img_subway_history.png);
+}
+.history p
+{
+	color: white;
+	font-size: 28px;
+	position: absolute;
+	left: 420px;
+	top:40px;
+	font-weight: bold;
+}
+.history .btn
+{
+	display: block;
+	width: 132px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 36px;
+	color: white;
+	position: absolute;
+	left: 420px;
+	bottom: 40px;
+}
+.section_bottom
+{
+	margin: 30px 0 0 55px;
+	overflow: hidden;
+}
+.section_bottom .new
+{
+	width: 870px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	float: left;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.new .new_title
+{
+	position: absolute;
+	top:75px;
+	left: 60px;
+}
+.new .new_title h2
+{
+	font-size: 30px;
+	font-weight: bold;
+	background: url(../img/bul_tit.png) no-repeat 0 0;
+	min-height: 60px;
+    padding: 17px 0 0 25px;
+}
+.new .new_title p
+{
+	text-align: center;
+	margin-top: 10px;
+	color: gray;
+}
+.new .board
+{
+	width: 350px;
+	height: 160px;
+	position: absolute;
+	left: 400px;
+	top: 75px;
+	font-size: 13px;
+}
+.new .board ul li
+{
+	margin-top: 21px;
+}
+.new .board ul li:first-child
+{
+	margin-top: 0;
+}
+.new .board ul li a:hover
+{
+	color: green;
+	text-decoration: underline;
+}
+.new .board .more
+{
+	display: block;
+	font-size: 14px;
+	color: gray;
+	padding: 33px 0 8px;
+}
+.quick_menu ul
+{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.quick_menu ul li
+{
+	float: left;
+	margin-left: 80px;
+}
+.quick_menu ul li:first-child
+{
+	margin-left: 0;
+}
+.quick_menu ul li a
+{
+	display: block;
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    padding-left: 90px;
+}
+.quick_menu ul li a strong
+{
+	font-size: 18px;
+	display: block;
+	color: black;
+	margin-top:15px;
+	text-align: left;
+}
+.quick_menu ul li a span
+{
+	font-size: 13px;
+	display: block;
+	margin-top: 5px;
+	color: lightgray;
+}
+.quick_menu ul li .icon
+{
+	width: 70px;
+	height: 70px;
+	background: url(../img/icon_quickmenu.png) no-repeat;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.quick_menu ul li.q1 .icon
+{
+	background-position: 0px 0px;
+}
+.quick_menu ul li.q2 .icon
+{
+	background-position: -70px 0px;
+}
+.quick_menu ul li.q3 .icon
+{
+	background-position: -140px 0px;
+}
+.quick_menu ul li.q4 .icon
+{
+	background-position: -210px 0px;
+}

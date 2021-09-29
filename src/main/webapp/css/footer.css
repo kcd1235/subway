@@ -1,0 +1,101 @@
+@charset "UTF-8";
+#footer .footer_contents
+{
+    width: 1170px;
+    height: 110px;
+    position: relative;
+    margin: 0 auto;
+}
+#footer .footer_top
+{
+    width: 1170px;
+    height: 20px;
+    margin-bottom: 25px;
+}
+#footer .footer_top ul li
+{
+    float: left;
+    margin-right: 30px;
+}
+#footer .footer_top ul li a
+{
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+#footer .footer_bottom
+{
+    overflow: hidden;
+}
+#footer .footer_bottom span
+{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 13px;
+    color: gray;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+#footer .footer_bottom span:first-child
+{
+    margin: 0;
+    padding: 0;
+}
+#footer .footer_bottom span::after
+{
+    content: '|';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2px;
+    height: 10px;
+    color: gray;
+}
+#footer .footer_bottom span:first-child:after
+{
+    content: '';
+}
+#footer .footer_bottom .copyright
+{
+    font-size: 13px;
+    color: gray;
+    padding-top: 2px;
+}
+#footer .footer_bottom .sns
+{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    bottom: 3px;
+}
+#footer .footer_bottom .sns a
+{
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#footer .footer_bottom .sns a:first-child
+{
+    background: url(../img/icon_sns_instar.png) 100% 0 no-repeat;
+    background-position: -49px;
+}
+#footer .footer_bottom .sns a:last-child
+{
+    background: url(../img/icon_sns_facebook.png) 100% 0 no-repeat;
+    background-position: -49px;
+    margin-left: 15px;
+}
+#footer::after
+{
+    content: '|';
+    position: absolute;
+    left: 0;
+    top: 59px;
+    width: 100%;
+    height: 1px;
+    background-color: #3b3b3b;
+}
